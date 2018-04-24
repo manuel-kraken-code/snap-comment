@@ -11,7 +11,6 @@ class comment {
 			return false;
 		}
 	}
-	}
 	public function  getCommentText(): string {
 		return $this-> commentText;
 	}
