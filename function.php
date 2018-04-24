@@ -4,7 +4,6 @@ class comment {
 		return $this-> commentSaltiness;
 	}
 	public function setCommentSaltiness(float $newCommentSaltiness): bool {
-		// detects bad values - we already know it's float
 		if ($newCommentSaltiness) {
 			return true;
 		} else {
